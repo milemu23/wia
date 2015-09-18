@@ -1,0 +1,106 @@
+html { font-size: 62.5%; }
+
+body {
+    font-size: 1.6rem;
+}
+
+.container, .container2 {
+    margin: 5% auto;
+    width: 500px;
+    height: 500px;
+    background: #cc5490;
+}
+
+p {
+    font-family: 'Courier', serif;
+    color: #fff;
+    font-size: 25rem;
+    word-wrap: break-word;
+    line-height: 8rem;
+    overflow: hidden;
+}
+
+.container2 p {
+    font-size: 1.6rem;
+    text-align: center;
+    word-wrap: none;
+}
+
+span {
+    position: relative;
+    overflow: hidden;
+}
+
+span[class*=char] {
+    text-shadow: 5px 2px 8px #ff6699;   
+}
+
+.char1 {
+    font-size: 50rem;
+    font-weight: bold;
+}
+
+.char2 {
+    top: -50px;
+    left: -40px;
+    z-index: 2;
+}
+
+.char3 {
+   margin-left: 330px;
+    top: -30px;
+    z-index: 3;
+}
+
+.char4 {
+    font-size: 30rem;
+    margin-left: 300px;
+    z-index: 4;
+}   
+
+.char5, .char8 {
+    font-size: 20rem;  
+}
+
+.char5 {
+     margin-left: 290px;   
+    z-index: 5;
+}
+
+.char6, .char7 {
+    text-transform: uppercase;   
+}
+
+.char6 {
+    margin-left: 220px;
+    top: -50px;
+    z-index: 6
+}
+
+.char7 {
+    margin-left: 80px;   
+    top: -220px;
+    font-size: 30rem;
+    z-index: 7;
+    
+}
+
+.char8 {
+    left: -240px;
+    top: -360px;
+    z-index: 8;
+}
+
+.word3 {
+    font-size: 20rem;   
+}
+
+.line1 {
+    font-size: 3rem;
+    color: #ccc;
+}
+
+.line3 {
+    font-size: .8rem;
+    color: #000;
+}
