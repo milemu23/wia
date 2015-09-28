@@ -1,0 +1,270 @@
+#a4hLogo {
+    font-family: 'Lilita One', sans-serif;
+    font-size: 10rem;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+
+/***** CHART CSS *****/
+.chart-container { 
+    width: 100%;
+}
+
+.chart-title { 
+    padding: 5px 0px 10px 15px; 
+    margin: 0px; 
+}
+
+.chart-title h2 { 
+    font-size: 3rem;
+    margin: 0px; 
+    color: rebeccapurple; 
+}
+
+.chart-title p { 
+    margin: 0px; 
+    color: #222; 
+}
+
+.chart-content { 
+    position: relative; 
+    height: 340px;
+    margin: 5px 0px 0px 0px; 
+}
+
+.chart-y-axis { 
+    width: 100%; 
+    height: 300px; 
+    position: relative; 
+    top: 0px; 
+    left: 0px; 
+}
+
+.chart-y-axis p { 
+    margin: 0px 0px 0px 10px; 
+    padding: 0px 0px 0px 5px; 
+    width: 100%; 
+    position: absolute; 
+    border-bottom: 1px solid #ccc; 
+}
+
+.chart-x-axis { 
+    position: relative;
+    width: 100%;
+    left: 10%;
+}
+
+.chart-x-axis p { 
+    position: absolute;  
+    width: 10%; 
+    top: 0px;
+    color: #888; 
+    margin-left: 14%; 
+    text-align: center; 
+    line-height: 1.2rem;
+    padding: 1% 0;
+    font-size: 1rem;
+}
+
+
+.chart-area {
+	width: 90%;
+	height: 300px;
+	position: absolute;
+	top: 0px;
+	left: 14%;
+}
+
+.chart-area .chart-bar {
+	position: absolute;
+	bottom: 0px;
+    width: 15%;
+	height: 0px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-repeat: no-repeat;
+	background-position: 50% bottom;
+}
+
+.chart-area .chart-bar.patients    { 
+    background-color: rgba(12,38,32,.6); 
+    background-image: url(../images/patient.png);
+}
+
+.chart-area .chart-bar.families { 
+    background-color: rgba(65,12,137,.6); 
+    background-image: url(../images/family.png); 
+}
+
+.chart-area .chart-bar.staff    { 
+    background-color: rgba(4,11,83,.6); 
+    background-image: url(../images/staff.png); 
+}
+
+.chart-area .chart-bar.serious    { 
+    background-color: rgba(140,6,6,.6); 
+    background-image: url(../images/serious.png); 
+}
+
+.chart-area .chart-bar.environment     { 
+    background-color: rgba(144,8,152,.6); 
+    background-image: url(../images/environment.png); 
+}
+
+.chart-area .chart-bar p { 
+    margin: 5px 0px 0px 0px; 
+    text-align: center; 
+    color: #fff; 
+    display: none;
+}
+
+.map_container {
+    background: url(../images/diagram.png) no-repeat 0px 0px;
+    height: 339px;
+    width: 684px;
+    position: relative;
+    color: #333;
+    font-size: 1.2rem;
+    float: right;
+    margin: 40px 0 0 20px;
+}
+
+.map_container a.numberDot {
+    background: url(../images/numberSprite.png) no-repeat;
+    height: 22px;
+    width: 22px;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+}
+
+.map_container #one  {
+    top: 130px;
+    left: 20px;
+    background-position: 0px 0px;
+}
+.map_container #one:hover, .map_container #one.selected {
+    background-position: 0px -24px;
+}
+
+.map_container #two {
+    top: 10px;
+    left: 220px;
+    background-position: -24px 0px;
+}
+.map_container #two:hover, .map_container #two.selected {
+    background-position: -24px -24px;
+}
+
+.map_container #three  {
+    top: 140px;
+    left: 330px;
+    background-position: -48px 0px;
+}
+.map_container #three:hover, .map_container #three.selected {
+    background-position: -48px -24px;   
+}
+
+.map_container #four  {
+    top: 330px;
+    left: 220px;
+    background-position: -72px 0px;
+}
+.map_container #four:hover, .map_container #four.selected {
+    background-position: -72px -24px;   
+}
+
+.map_container a.numberDot.selected {
+    background-position: 0px -24px;   
+}
+
+.map_container form {
+    position: absolute;
+    top: 20px;
+    left: 350px;
+}
+
+.map_container .step_detail {
+    float: right;
+    background: #999;
+    width: 35%;
+    padding: 2%;
+    height: 300px;
+    border-radius: 5px;
+    margin: 15px 0 0 0;
+}
+
+.map_container .step_detail h2 {
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.map_container .step_detail h3 {
+    color: #d9d9d9;
+    font-size: 2rem;
+}
+
+.step_detail_container {
+ display: none;   
+}
+
+#imgGallery img {
+    float: left;
+    max-width: 50%;
+    max-height: 50%;
+    
+}
+
+.row {
+    margin-top: 50px;   
+}
+
+
+.char1, .char4 {
+ color: #ff6699; 
+    font-size: 10rem;
+}
+
+.char2, .char3 {
+    color: #259ff8;
+}
+
+.char6 {
+ color: #7625f8;   
+}
+
+.char5 {
+ color: #ffc929;   
+}
+
+.char7 {
+    color: #7B68EE;
+}
+
+.char8 {
+    color: #6CA6CD;
+}
+
+@media (max-width: 550px) {
+    #a4hLogo {
+    font-family: 'Lilita One', sans-serif;
+    font-size: 10rem;
+    transform: none;
+    }
+    .ten.columns {
+        float: left;
+        clear: both;
+        margin-left: 0 !important;
+    }
+    .chart-area .chart-bar {
+        margin-left: 4%;
+    }
+
+}

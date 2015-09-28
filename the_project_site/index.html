@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Michelle Munksgard Wk 4</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/skeleton.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!-- [if lt IE 9]>
+       <link rel="stylesheet" type="text/css" href="css/chart_ie.css" /> 
+    <[endif]-->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- link to lettering.js -->
+    <script src="js/jquery.lettering.js"></script>
+    <script src="js/jQueryRotate.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
+    <script src="js/modernizr.js"></script>
+</head>
+<body>
+    <div class="container">
+       <!-- ROW 1 -->
+        <section class="row">
+            <section class="two columns">
+                <h1 id="a4hLogo">Art4Hope</h1>
+            </section>
+            <!-- BAR CHART -->
+            <section class="ten columns" id="barGraph">
+                <div class="chart-container">
+                    <div class="chart-title">
+                        <h2>Why Healthcare Institutions Invest in the Arts</h2>
+                    </div>
+                    <div class="chart-content">
+                        <div class="chart-y-axis">
+                            <p style="top:0px;">90</p>
+                            <p style="bottom:0px;">0</p>
+                        </div>
+                        <div class="chart-area" bar-spacing="10">
+                            <div bar-value="80" label="Benefit Patients" class="chart-bar patients"></div>
+                            <div bar-value="53" label="Benefit Patients' Families" class="chart-bar families"></div>
+                            <div bar-value="42" label="Benefit Healthcare Staff" class="chart-bar staff"></div>
+                            <div bar-value="58" label="Help Patients & Families Deal w/ Serious Illness" class="chart-bar serious"></div>
+                            <div bar-value="70" label="Contribute to a Healing Environment" class="chart-bar environment"></div>
+                        </div>
+                        <div class="chart-x-axis"></div>
+                    </div>
+                </div>
+            
+            </section>
+        </section>
+
+        <!-- ROW 2 -->
+        <section class="row">
+            <section class="twelve columns" id="intMap">
+                <div class="map_container">
+                <a class="numberDot" id="one" steps="one"></a>
+                <a class="numberDot" id="two" steps="two"></a>
+                <a class="numberDot" id="three" steps="three"></a>
+                <a class="numberDot" id="four" steps="four"></a>
+                
+               <!-- <form id="diagramForm">
+                    <select name="steps" id="steps">
+                        <option value="select">SELECT</option>
+                        <option value="one">Request</option>
+                        <option value="two">Create</option>
+                        <option value="three">Mail</option>
+                        <option value="four">Display</option>
+                    </select>
+                </form> -->
+                    <div class="detail_container">
+                        <div class="step_detail">
+                            <h2>Choose a Step</h2>
+                            <p>Select a number to see how it all works.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="step_detail_container">
+                <div class="step_detail" id="one">
+                    <h2>Step 1: Request</h2>
+                    <h3>Know someone that could use some art for their hospital room?</h3>
+                    <p>All you have to do is send us a request telling us a little about the person that needs some art for a little extra hope!</p>
+                </div>
+                
+                <div class="step_detail" id="two">
+                    <h2>Step 2: Create</h2>
+                    <h3>Artwork is created by an artist.</h3>
+                    <p>We have a lot of volunteer artists standing by to create a unique one-of-a-kind piece of art.</p>
+                </div>
+                
+                <div class="step_detail" id="three">
+                    <h2>Step 3: Mail</h2>
+                    <h3>The beautiful artwork is on it's way to the recipient.</h3>
+                    <p>After the artwork is created by one of our artists, it will be packaged up and sent out to the recipient.</p>
+                </div>
+                
+                <div class="step_detail" id="four">
+                    <h2>Step 4: Display</h2>
+                    <h3>Artwork is delivered and displayed.</h3>
+                    <p>The artwork is delivered to the recipient with everything that is needed to hang right on the wall and bring some cheer to a plain hospital room!</p>
+                </div>
+                    </div>
+                
+            </section>
+        </section>
+        <!-- ROW 3 -->
+        <section class="row">
+            <section class="one-half column"  id="imgGallery">
+                <h2>Example Artwork<h/2>
+                <a class="fancybox" rel="group" href="images/gallery/elephant.jpg" title="Watercolor Elephant">
+                    <img src="images/thumbs/thumb_elephant.jpg" alt="Elephant" />
+                </a>
+                <a class="fancybox" rel="group" href="images/gallery/giraffe.jpg" title="Watercolor Giraffe">
+                    <img src="images/thumbs/thumb_giraffe2.jpg" alt="Giraffe" />
+                </a>
+                <a class="fancybox" rel="group" href="images/gallery/horse.jpg" title="Watercolor Horse">
+                    <img src="images/thumbs/thumb_horse.jpg" alt="Horse" />
+                </a>
+                <a class="fancybox" rel="group" href="images/gallery/giraffe2.jpg" title="Watercolor Giraffe">
+                    <img src="images/thumbs/thumb_giraffe.jpg" alt="Giraffe" />
+                </a>
+            </section>
+            <section class="one-half column" id="form"></section>
+        </section>
+        
+    </div>
+    
+</body>
+</html>
